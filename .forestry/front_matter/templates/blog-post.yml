@@ -28,3 +28,5 @@ fields:
       format: markdown
   label: Content
   description: content of the blog post
+pages:
+- content/posts/test-forestry-blog-post.md
