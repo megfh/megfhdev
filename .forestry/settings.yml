@@ -5,10 +5,12 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: directory
-  path: content/posts
+  path: src/content/posts
   label: Posts
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - blog-post
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
@@ -21,13 +23,3 @@ build:
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run forestry:preview
-sections:
-  - type: directory
-    path: src/content/posts
-    label: Posts
-    create: documents
-    match: "**/*"
-    templates:
-      - blog
----
-
