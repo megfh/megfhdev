@@ -25,7 +25,7 @@ fields:
     required: true
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Content
   description: content of the blog post
 - name: slug
