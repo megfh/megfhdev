@@ -28,5 +28,11 @@ fields:
       format: markdown
   label: Content
   description: content of the blog post
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
+  hidden: false
 pages:
 - src/content/posts/test-forestry-blog-post.md
