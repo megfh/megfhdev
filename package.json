@@ -1,1 +1,25 @@
-{"name":"megfhdev","version":"1.0.0","private":true,"description":"megfhdev","author":"Meghan Hannon","keywords":["gatsby"],"scripts":{"develop":"gatsby develop","start":"gatsby develop","build":"gatsby build","serve":"gatsby serve","clean":"gatsby clean"},"dependencies":{"gatsby":"^3.2.1","react":"^17.0.1","react-dom":"^17.0.1"}}
+{
+  "name": "megfhdev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "megfhdev",
+  "author": "Meghan Hannon",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "forestry:preview": "gatsby develop -p 8080 -H 0.0.0.0"
+  },
+  "dependencies": {
+    "gatsby": "^3.2.1",
+    "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-transformer-remark": "^3.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
