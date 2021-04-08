@@ -34,9 +34,7 @@ module.exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
-  console.log("\n---------------------------------------------------------------------------\n");
-  console.log(response);
-  console.log("\n---------------------------------------------------------------------------\n");
+  
   //create new pages with unique slug
   response.data.allMarkdownRemark.edges.forEach(edge => {
     createPage({

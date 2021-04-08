@@ -1,14 +1,13 @@
 import * as React from "react"
 import Layout from '../components/Layout'
 
-
-const IndexPage = () => {
+const BlogHome = () => {
   return (
     <Layout>
-      <h1>This is my Home Page! </h1>
+      <h1>This is my Blog homepage! </h1>
     </Layout>
     
   )
 }
 
-export default IndexPage
+export default BlogHome

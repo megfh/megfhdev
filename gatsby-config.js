@@ -10,6 +10,7 @@ module.exports = {
       path: `${__dirname}/src/content/posts`,
     },
   },
-  'gatsby-transformer-remark'
+  'gatsby-transformer-remark', 
+  `gatsby-plugin-react-helmet`
 ]
 };
