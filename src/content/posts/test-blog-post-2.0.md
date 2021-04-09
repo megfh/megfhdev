@@ -1,7 +1,7 @@
 ---
-date: 2021-04-06T01:14:37Z
+date: 2021-04-06T01:14:37.000+00:00
 tags: []
-title: 'Test Blog Post 2.0 '
+title: Test Blog Post, To Start
 
 ---
-Monday late night coding. This should work now! 
+Monday late night coding. This should work now!
