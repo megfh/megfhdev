@@ -22,4 +22,5 @@ fields:
   default: []
   label: tags
 pages:
+- src/content/posts/another-test-blog-post.md
 - src/content/posts/test-blog-post-2.0.md
