@@ -25,8 +25,9 @@ export default function Blog(props) {
     <Layout>
         <div>
           <h1>{data.frontmatter.title}</h1>
-          <h3>{data.frontmatter.date}</h3>
+          <h5>{data.frontmatter.date}</h5>
         </div>
+        <hr/>
         <div
           dangerouslySetInnerHTML={{ __html: data.html }}
         ></div>

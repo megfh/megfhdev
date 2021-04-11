@@ -13,14 +13,13 @@ export default function Layout(props) {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css" />
       </Helmet>
       <header>
-        <Link to="/">
-          <h1>megfh</h1>
-        </Link>
+        <h1>megfh</h1>
         <nav>
-          <Link to="/about">about</Link> /&nbsp;
+          <Link to="/">home</Link> /&nbsp;
           <Link to="/blog">blog</Link> /&nbsp;
           <Link to="/projects">projects</Link> /&nbsp;
-          <Link to="/faq">recruiter faq</Link>
+          <Link to="/faq">recruiter faq</Link> /&nbsp;
+          <Link to="/contact">contact</Link>
         </nav>
       </header>
       <div>{props.children}</div>
