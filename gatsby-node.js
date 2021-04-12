@@ -1,17 +1,24 @@
 const path = require("path")
 
-module.exports.onCreateNode = ({ node, actions }) => {
+module.exports.onCreateNode = ({ node, getNode, actions }) => {
   // Transform the new node here and create a new node or
   // create a new node field.
   const { createNodeField } = actions
   if (node.internal.type === "MarkdownRemark") {
+    const parent = getNode(node.parent); 
+    let collection = parent.sourceInstanceName; 
     const slug = path.basename(node.fileAbsolutePath, ".md")
     createNodeField({
       //same as node: node
       node,
       name: "slug",
       value: slug,
-    })
+    }); 
+    createNodeField({
+      node,
+      name: 'collection',
+      value: collection,
+    });
   }
 }
 
@@ -23,7 +30,10 @@ module.exports.createPages = async ({ graphql, actions }) => {
   //get slugs
   const response = await graphql(`
     query {
-      allMarkdownRemark {
+      allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC }
+        filter: { fields: { collection: { eq: "blog" } } }
+      ) {
         edges {
           node {
             fields {
