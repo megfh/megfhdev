@@ -27,8 +27,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
   //dynamically create pages here
   //get path to template
   const blogTemplate = path.resolve("./src/templates/blog.js")
+  const projectTemplate = path.resolve("./src/templates/project.js"); 
   //get slugs
-  const response = await graphql(`
+  const blog_response = await graphql(`
     query {
       allMarkdownRemark(
         sort: { fields: [frontmatter___date], order: DESC }
@@ -44,12 +45,39 @@ module.exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `)
+  const project_response = await graphql(`
+    query {
+      allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC }
+        filter: { fields: { collection: { eq: "projects" } } }
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `)
   
   //create new pages with unique slug
-  response.data.allMarkdownRemark.edges.forEach(edge => {
+  blog_response.data.allMarkdownRemark.edges.forEach(edge => {
     createPage({
       component: blogTemplate,
       path: `/blog/${edge.node.fields.slug}`,
+      context: {
+        slug: edge.node.fields.slug,
+      },
+    })
+  })
+
+  //create new pages with unique slug
+  project_response.data.allMarkdownRemark.edges.forEach(edge => {
+    createPage({
+      component: projectTemplate,
+      path: `/projects/${edge.node.fields.slug}`,
       context: {
         slug: edge.node.fields.slug,
       },
