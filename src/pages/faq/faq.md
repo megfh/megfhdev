@@ -2,7 +2,7 @@
 date: 2021-04-11T22:59:02Z
 ---
 
-Hello friend 👋, thanks for taking an interest in me and my profile.
+Hello friend 👋 . Thanks for taking an interest in me and my profile.
 Below are some answers to the types of questions usually covered in an initial interview.
 Because I value my time and yours, please take the time to read through these before reaching out 🙏
 
@@ -19,7 +19,7 @@ I am currently employed full time as a software developer. I am not actively loo
 - Working on a team of developers where the emphasis is on technical development.
 - Working in Javascript across the stack (I have experience with React, Gatsby, NodeJS, and Express).
 - Working on a team that values collaboration, asynchronous communication, thorough documentation, and fun!
-- Permanent, full time, with benefits. No contracts roles.
+- Permanent, full time, with benefits. No contract roles.
 
 ### What sort of company do you want to work with?
 
@@ -28,11 +28,11 @@ An organization that contributes to the community, values their employees, and i
 - How are we making a difference in our community & the world?
 - How do we make our employees feel safe, valued, and excited about work?
 - How are we investing in their learning and growth?
-- Do we have a clear engineering career path, or a framework for how an employee might progress?
+- Do we have a clear engineering career path, or a framework for how an employee might progress in the company?
 
 ### Are you willing to relocate?
 
-Nope! For the right role, I would consider a hybrid (in office/remote) position with no more than 2 days in office, in the London or Kitchener/Waterloo area.
+Nope! I am only looking for remote roles at this time.
 
 ### Are you willing to work remotely?
 
@@ -53,11 +53,7 @@ I can telephone interview with little notice.
 
 I can video call with prior arrangement.
 
-~~It will entirely depend on the location and duration for face to face interviews.~~
-
-No in person interviews until COVID-19 is no longer a concern.
-
-I am **not** willing to go through multiple rounds of interviews without clear expectations regarding salary, vacation & benefits. I do not want to waste my time or yours, so this should be covered in our initial discussion.
+I am not willing to go through multiple rounds of interviews without clear expectations regarding salary, vacation & benefits. I value my time and yours, so this should be covered in our initial discussion.
 
 ### Thanks for reading 👋
 

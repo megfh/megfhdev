@@ -5,7 +5,7 @@ import { graphql } from 'gatsby';
 const FAQ = ({ data }) => {
   return (
     <Layout>
-      <h1>For recruiters - FAQ</h1>
+      <h2>For recruiters - FAQ</h2>
       <p><i>Last updated {data.markdownRemark.frontmatter.date}</i></p>
       <div
         dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
