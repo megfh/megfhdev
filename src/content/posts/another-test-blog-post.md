@@ -9,15 +9,15 @@ title: 'A Test Blog Post with an Image! '
 ---
 Another test blog post for my blog!
 
-![](/uploads/howe-sound.jpg)
+![](/uploads/okanagan.jpg)
 
 Testing out formatting, images, etc in forestry
 
-# Hello world! 
+# Hello world!
 
-##### a markdown generated h5 
+##### a markdown generated h5
 
-This text is **bold** and this text is _italic_. 
+This text is **bold** and this text is _italic_.
 
 > This is a blockquote
 
@@ -29,14 +29,14 @@ This text is **bold** and this text is _italic_.
 
 A list
 
-* an 
-* unordered 
-* list 
+* an
+* unordered
+* list
 
-A different list 
+A different list
 
-1. An 
-2. Ordered 
-3. List 
+1. An
+2. Ordered
+3. List
 
 [Forestry Docs](https://forestry.io/docs/editing/markdown-editor/ "Forestry Docs")
