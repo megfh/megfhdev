@@ -11,8 +11,7 @@ Another test blog post for my blog!
 
 Testing out formatting, images, etc in forestry
 
-![](/src/uploads/okanagan.jpg)
-
+![](/assets/the_chief.JPG)
 
 # Hello world!
 
