@@ -11,7 +11,13 @@ Another test blog post for my blog!
 
 Testing out formatting, images, etc in forestry
 
+#### An image hosted in the /static/assets directory
+
 ![](/assets/the_chief.JPG)
+
+#### An image linked externally 
+
+![](https://www.k9web.com/wp-content/uploads/2020/12/young-red-labrador-dog-780x974.jpg)
 
 # Hello world!
 
