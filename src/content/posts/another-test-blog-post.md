@@ -9,8 +9,10 @@ title: 'A Test Blog Post with an Image! '
 ---
 Another test blog post for my blog!
 
-
 Testing out formatting, images, etc in forestry
+
+![](/src/uploads/okanagan.jpg)
+
 
 # Hello world!
 
