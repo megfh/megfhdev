@@ -9,7 +9,6 @@ title: 'A Test Blog Post with an Image! '
 ---
 Another test blog post for my blog!
 
-![](/uploads/okanagan.jpg)
 
 Testing out formatting, images, etc in forestry
 
