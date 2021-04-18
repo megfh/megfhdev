@@ -23,5 +23,4 @@ fields:
   label: tags
 pages:
 - src/content/posts/another-test-blog-post.md
-- src/content/posts/one-more-for-good-measure.md
 - src/content/posts/welcome.md
