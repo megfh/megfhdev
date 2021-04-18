@@ -1,4 +1,4 @@
-## [megfh.dev](megfh.dev)
+## [megfh.dev](https://megfh.dev/)
 
 My personal website, built with
 
