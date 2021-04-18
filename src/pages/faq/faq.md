@@ -1,5 +1,5 @@
 ---
-date: 2021-04-11T22:59:02Z
+date: 2021-04-17T22:59:02Z
 ---
 
 Hello friend 👋 . Thanks for taking an interest in me and my profile.
@@ -12,12 +12,13 @@ Not currently. I am a Canadian citizen and would need to aquire a work visa to w
 
 ### What's your current situation?
 
-I am currently employed full time as a software developer. I am not actively looking for a new role, but am always open to the right position 👀
+I am currently employed full time as a software developer, but actively looking for my next opportunity 👀
 
 ### What's your ideal role?
 
 - Working on a team of developers where the emphasis is on technical development.
 - Working in Javascript across the stack (I have experience with React, Gatsby, NodeJS, and Express).
+  - I have played around with other stacks before (Python, Ruby on Rails), and am confident in my ability to pick up new languages or frameworks, if needed
 - Working on a team that values collaboration, asynchronous communication, thorough documentation, and fun!
 - Permanent, full time, with benefits. No contract roles.
 

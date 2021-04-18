@@ -25,7 +25,7 @@ export default function Blog(props) {
     <Layout>
         <div>
           <h1>{data.frontmatter.title}</h1>
-          <h5>{data.frontmatter.date}</h5>
+          <i><h5>{data.frontmatter.date}</h5></i>
         </div>
         <hr/>
         <div
