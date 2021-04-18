@@ -24,5 +24,4 @@ fields:
 pages:
 - src/content/posts/another-test-blog-post.md
 - src/content/posts/one-more-for-good-measure.md
-- src/content/posts/test-blog-post-2.0.md
 - src/content/posts/welcome.md
