@@ -8,7 +8,7 @@ export default function Project(props) {
     <Layout>
         <div>
           <h1>{data.frontmatter.title}</h1>
-          <a href={data.frontmatter.sourceLink}>🔗 {data.frontmatter.sourceLink}</a>
+          <a href={data.frontmatter.sourceLink}><span role="img" aria-label="link emoji">🔗 </span>{data.frontmatter.sourceLink}</a>
         </div>
         <hr></hr>
         <div

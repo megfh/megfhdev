@@ -34,7 +34,6 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
-            tags
           }
           fields {
             slug

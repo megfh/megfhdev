@@ -9,7 +9,7 @@ const NotFoundPage = () => {
     <Layout>
       <h1>404 Not Found</h1>
       <br></br>
-      <p>Hi friend, are you lost? The page you're looking for doesn't seem to exist 😔</p>
+      <p>Hi friend, are you lost? The page you're looking for doesn't seem to exist <span role="img" aria-label="sad face emoji">😔</span></p>
       <p>Let's get you back <Link to="/">home</Link></p>
     </Layout>
   )

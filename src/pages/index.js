@@ -6,11 +6,11 @@ import { Link } from 'gatsby';
 const IndexPage = () => {
   return (
     <Layout>
-      <h2>Hello, world! 👋 </h2>
+      <h2>Hello, world! <span role="img" aria-label="waving hand emoji">👋</span></h2>
       <br/>
       <p>
         My name is Meg, and I'm a software developer. I built this site to showcase some of my <Link to="/projects">projects</Link>, share some <Link to="/blog">writing</Link>, 
-        and honestly just have some fun. 
+        and honestly just have fun. 
       </p> 
       <p>
         The site is built with <a href="https://www.gatsbyjs.com/">Gatsby</a>, 
