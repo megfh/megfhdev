@@ -23,3 +23,4 @@ fields:
   label: tags
 pages:
 - src/content/posts/welcome.md
+- src/content/posts/what-i-learned-from-100-days-of-gatsby.md
