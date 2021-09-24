@@ -1,9 +1,11 @@
 ---
-date: 2021-04-17T22:59:02Z
+date: 2021-09-23T22:59:02Z
 ---
 
 Hello friend 👋 . Thanks for taking an interest in me and my profile.
-Below are some answers to the types of questions usually covered in an initial interview.
+
+I am not currently open to new opportunities, but please check back in the future! 
+<!-- Below are some answers to the types of questions usually covered in an initial interview.
 Because I value my time and yours, please take the time to read through these before reaching out 🙏
 
 ### Are you eligible to work in the US?
@@ -58,4 +60,4 @@ I am not willing to go through multiple rounds of interviews without clear expec
 
 ### Thanks for reading 👋
 
-If you made it this far and still want to get in touch, please email me at <a href="mailto:megfhannon@gmail.com">megfhannon@gmail.com</a> and include "FAQs are awesome!" in the subject to get my attention, gratitude and a guaranteed reply 🙏
+If you made it this far and still want to get in touch, please email me at <a href="mailto:megfhannon@gmail.com">megfhannon@gmail.com</a> and include "FAQs are awesome!" in the subject to get my attention, gratitude and a guaranteed reply 🙏 -->
